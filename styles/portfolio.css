@@ -69,6 +69,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.what-i-do{
+    margin-top: 80px;
+
+}
 
 /* about section styles */
 .about{
@@ -80,9 +84,9 @@ main{
 
 }
 .section-tittle{
-
+    text-align: center;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 .section-description{
@@ -107,3 +111,28 @@ main{
     font-size: 20px;
     color: #474747;
 }
+
+/* What i do styles */
+
+.skilles-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-tittle{
+    font-weight: 700px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+/* Resume styles  */
+
