@@ -136,7 +136,7 @@ main{
 }
 /* Resume styles  */
 .resume{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .resume-content{
     display: flex;
@@ -164,4 +164,26 @@ main{
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* Contact style  */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+}
+.contact .section-tittle{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 23px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 34px;
+}
+.contact a{
+    text-decoration: none;
 }
